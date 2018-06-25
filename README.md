@@ -22,3 +22,4 @@ Requires opencv
 
 `python spylapse.py`
 
+Ctrl+c to stop recording and start stitching the images

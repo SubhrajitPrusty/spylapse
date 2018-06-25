@@ -23,4 +23,5 @@ finally:
 	os.system("ffmpeg -r 12 -i img/t-%d.jpg -c:v libx264 -y {}.mp4".format(time.strftime("%d-%m-%y.%I-%M")))
 	os.chdir("img")
 	for files in os.listdir():
-		os.remove(files)
+            if not files.startswith("."):
+                os.remove(files)
