@@ -1,10 +1,10 @@
-# spylapse
+# Spylapse
 
-To keep track of what happens when you leave your terminal
+A Python script that keeps track of what happens when you leave your terminal
 
 # Requirements
 
-Requires `ffmpeg`
+## `ffmpeg`
 
 ### Ubuntu
 
@@ -14,9 +14,15 @@ Requires `ffmpeg`
 
 [FFmpeg](https://ffmpeg.org/download.html)
 
-Requires opencv
+## Opencv
+
+### 1. Terminal
 
 `pip install -r requirements.txt`
+
+### 2. Download
+
+https://opencv.org/releases.html
 
 # Usage
 
