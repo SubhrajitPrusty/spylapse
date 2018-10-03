@@ -10,6 +10,7 @@ def takePicture(index):
 i = 1
 
 try:
+	print("Ctrl+c to stop recording and start stitching the images...")
 	while(True):
 		# takePicture(int(time.time()))
 		# not using because glob (*) is not supported on Windows ffmpeg
