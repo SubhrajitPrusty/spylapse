@@ -27,5 +27,6 @@ https://opencv.org/releases.html
 # Usage
 
 `python spylapse.py`
+![usage](https://user-images.githubusercontent.com/3172679/46386147-ca359e00-c68d-11e8-942f-7ab3e418b2ed.png)
 
 Ctrl+c to stop recording and start stitching the images
